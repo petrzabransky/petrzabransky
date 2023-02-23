@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.scss';
+import Header from './components/partial/header/Header';
 
 function App() {
   return (
-    <h1>Empty App Typescript..</h1>
+    <Header />
   );
 }
 
