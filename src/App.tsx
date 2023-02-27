@@ -6,6 +6,7 @@ import Hero from './components/block/Hero';
 import Reference from './components/block/Reference';
 import About from './components/block/About';
 import Contact from './components/block/Contact';
+import Technology from './components/block/Technology';
 
 
 function App() {
@@ -14,11 +15,9 @@ function App() {
       <>
         <Hero />
         <Reference />
+        <Technology />
         <About />
         <Contact />
-
-
-
       </>
     </Layout>
   );

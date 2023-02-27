@@ -10,6 +10,7 @@ const Nav = () => {
 				<ul id="navigation" className="nav__menu">
 					<li className="nav__item"><a href="#hero" className="nav__link">úvod</a></li>
 					<li className="nav__item"><a href="#reference" className="nav__link">reference</a></li>
+					<li className="nav__item"><a href="#technology" className="nav__link">technologie</a></li>
 					<li className="nav__item"><a href="#about" className="nav__link">o mě</a></li>
 					<li className="nav__item"><a href="#contact" className="nav__link">kontakt</a></li>
 				</ul>
