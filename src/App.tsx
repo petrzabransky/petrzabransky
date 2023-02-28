@@ -6,6 +6,7 @@ import About from "./components/block/About";
 import Contact from "./components/block/Contact";
 import Technology from "./components/block/Technology";
 import Header from "./components/partial/header/Header";
+import Footer from "./components/partial/footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <section id="about"><About /></section>
         <section id="contact"><Contact /></section>
       </main>
+      <Footer />
     </>
   );
 }
