@@ -1,22 +1,24 @@
-import React from 'react';
-import './App.scss';
-import './styles/layout.scss'
-import Header from './components/partial/header/Header';
+import "./styles/container.scss";
+import "./App.scss";
+import Hero from "./components/block/Hero";
+import Reference from "./components/block/Reference";
+import About from "./components/block/About";
+import Contact from "./components/block/Contact";
+import Technology from "./components/block/Technology";
+import Header from "./components/partial/header/Header";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <div className="container">
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-      </div>
-    </div>
+      <main>
+        <section id="hero"><Hero /></section>
+        <section id="reference"><Reference /></section>
+        <section id="technology"><Technology /></section>
+        <section id="about"><About /></section>
+        <section id="contact"><Contact /></section>
+      </main>
+    </>
   );
 }
 
