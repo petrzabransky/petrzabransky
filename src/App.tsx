@@ -1,22 +1,25 @@
 import React from 'react';
 import './App.scss';
-import './styles/layout.scss'
-import Header from './components/partial/header/Header';
+import Layout from './components/layout/Layout';
+import "./styles/container.scss";
+import Hero from './components/block/Hero';
+import Reference from './components/block/Reference';
+import About from './components/block/About';
+import Contact from './components/block/Contact';
+import Technology from './components/block/Technology';
+
 
 function App() {
   return (
-    <div>
-      <Header />
-      <div className="container">
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nostrum at sunt incidunt accusantium corporis esse, sequi sit repudiandae eos error delectus atque cupiditate reiciendis placeat maxime, id voluptatem sed?</p>
-      </div>
-    </div>
+    <Layout>
+      <>
+        <Hero />
+        <Reference />
+        <Technology />
+        <About />
+        <Contact />
+      </>
+    </Layout>
   );
 }
 
