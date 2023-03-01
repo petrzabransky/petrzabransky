@@ -4,7 +4,7 @@
     color: $color-black;
     line-height: 1.5;
     font-weight: normal;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 
     &--display {
         font-size: 3.6rem;
@@ -20,5 +20,21 @@
 
     &--subtitle {
         font-size: 1rem;
+    }
+}
+
+.hashtag {
+    background: $color-light;
+    display: inline;
+    text-align: center;
+
+    &--big {
+        width: 100%;
+        padding: 16px 32px;
+        text-transform: uppercase;
+    }
+
+    &::before {
+        content: "#";
     }
 }
