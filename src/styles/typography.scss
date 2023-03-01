@@ -1,0 +1,24 @@
+@import '../styles/variable.scss';
+
+.heading {
+    color: $color-black;
+    line-height: 1.5;
+    font-weight: normal;
+    margin-bottom: 1em;
+
+    &--display {
+        font-size: 3.6rem;
+    }
+
+    &--header {
+        font-size: 2rem;
+    }
+
+    &--title {
+        font-size: 1.2rem;
+    }
+
+    &--subtitle {
+        font-size: 1rem;
+    }
+}
