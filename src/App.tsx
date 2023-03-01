@@ -1,10 +1,10 @@
 import "./styles/container.scss";
 import "./App.scss";
-import Hero from "./components/block/Hero";
-import Reference from "./components/block/Reference";
-import About from "./components/block/About";
-import Contact from "./components/block/Contact";
-import Technology from "./components/block/Technology";
+import Hero from "./components/block/hero/Hero";
+import Reference from "./components/block/reference/Reference";
+import About from "./components/block/about/About";
+import Contact from "./components/block/contact/Contact";
+import Technology from "./components/block/technology/Technology";
 import Header from "./components/partial/header/Header";
 import Footer from "./components/partial/footer/Footer";
 

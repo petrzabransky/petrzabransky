@@ -1,4 +1,4 @@
-import "../../styles/container.scss";
+import "../../../styles/container.scss";
 
 const Reference = () => {
 	return (
