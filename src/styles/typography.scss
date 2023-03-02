@@ -27,11 +27,13 @@
     background: $color-light;
     display: inline;
     text-align: center;
+    margin-right: 2rem;
 
     &--big {
         width: 100%;
         padding: 8px;
         text-transform: uppercase;
+        margin: 0;
     }
 
     &::before {
