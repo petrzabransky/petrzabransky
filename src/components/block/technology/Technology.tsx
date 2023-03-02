@@ -4,7 +4,7 @@ import "./Technology.scss";
 
 const Technology = () => {
 	return (
-		<section className="technology" id="#technology">
+		<section className="technology section" id="#technology">
 			<div className="container">
 				<h2 className="heading heading--header">Technologie</h2>
 				<div className="grid grid--4">
