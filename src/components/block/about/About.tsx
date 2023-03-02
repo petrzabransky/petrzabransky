@@ -25,9 +25,6 @@ const About = () => {
 							<p>
 								Nyní bych chtěl  spojit příjemné s užitečným a začít se programování věnovat naplno profesionálně.  Když se člověk živí svým koníčkem, dává do práce daleko více energie.  Rychle roste profesionalita i produktivita a spokojenost je pak na straně zaměstnance, zaměstnavatele i zákazníka.
 							</p>
-							<p>
-								Nabyté zkušenosti z předchozích oborů bych chtěl zhodnotit a využít i v kariéře programátora. Díky více prosefím a pozicím v různých firmách jsem získal velký nadhled a dokážu vidět firmu a její procesy z více úhlů pohledu.
-							</p>
 						</div>
 					</div>
 				</div>
