@@ -5,8 +5,28 @@
 	grid-gap: 32px;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
+	&--3 {
+		grid-template-columns: 1fr;
+
+		@media (min-width: $breakpoint-tablet) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@media (min-width: $breakpoint-laptop) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
 	&--4 {
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-template-columns: 1fr;
+
+		@media (min-width: $breakpoint-tablet) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@media (min-width: $breakpoint-laptop) {
+			grid-template-columns: repeat(4, 1fr);
+		}
 	}
 
 	&--small-big {
