@@ -2,6 +2,7 @@ import "../../../styles/container.scss";
 import "../../../styles/utility.scss";
 import "../../../styles/section.scss";
 import petr from "../../../assets/images/petr-zabransky.png";
+import Card from "../../component/card/Card";
 
 const About = () => {
 	return (
@@ -39,107 +40,83 @@ const About = () => {
 					</div>
 				</section >
 
-
 				<section className="subsection">
 					<div className="container">
+						<h3 className="heading heading--header text-center">Potenciál</h3>
+						<div className="grid grid--3">
+							<Card title={"Silné stránky"}>
+								<>
+									<li className="card__item">analytické myšlení</li>
+									<li className="card__item">hledání řešení</li>
+									<li className="card__item">krizové situace</li>
+									<li className="card__item">kreativita</li>
+									<li className="card__item">flexibilita</li>
+								</>
+							</Card>
 
-						<h3 className="heading heading--header">
-							Potenciál
-						</h3>
-						<div className="grid grid--small-big">
-							{/*<img src={ } alt="petr zabransky portrét" />*/}
-							<h4 className="heading heading--title">Silné stránky</h4>
+							<Card title={"Slabé stránky"}>
+								<>
+									<li className="card__item">angličtina</li>
+									<li className="card__item">memorování</li>
+									<li className="card__item">rutinní činosti</li>
+								</>
+							</Card>
 
-							<div className="hashtag__container">
-								<div>
-									<span className="hashtag">analytické&nbsp;myšlení</span>
-								</div>
-
-								<div>
-									<span className="hashtag">řešení&nbsp;problémů</span>
-								</div>
-
-								<div>
-									<span className="hashtag">hledání&nbsp;systémů</span>
-								</div>
-
-								<div>
-									<span className="hashtag">kreativita</span>
-								</div>
-
-								<div>
-									<span className="hashtag">flexibilita</span>
-								</div>
-							</div>
-
-							<h4 className="heading heading--title">Slabé stránky</h4>
-
-							<div className="hashtag__container">
-								<div>
-									<span className="hashtag">angličtina</span>
-								</div>
-							</div>
-
-							<h4 className="heading heading--title">IQ</h4>
-
-							<div className="hashtag__container">
-								<div>
-									<span className="hashtag">129</span>
-								</div>
-							</div>
-
-							<h4 className="heading heading--title">
-								Volný čas
-							</h4>
-
-							<div className="hashtag__container">
-								<div>
-									<span className="hashtag">programování</span>
-								</div>
-
-								<div>
-									<span className="hashtag">příroda</span>
-								</div>
-
-								<div>
-									<span className="hashtag">sport</span>
-								</div>
-
-							</div>
+							<Card title={"Soft Skills"}>
+								<>
+									<li className="card__item">dobré vztahy</li>
+									<li className="card__item">vedení menšího týmu</li>
+									<li className="card__item">komunikace</li>
+									<li className="card__item">empatie</li>
+								</>
+							</Card>
 						</div>
 					</div>
 				</section>
 
 				<section className="subsection">
 					<div className="container">
-						<h3 className="heading heading--header">
-							Vzdělání
-						</h3>
+						<h3 className="heading heading--header text-center">Vzdělání</h3>
 						<div className="grid grid--small-big">
 							<h4 className="heading heading--title">Strojírenství</h4>
-							<div className="hashtag__container">
-								<div>
-									<p className="hashtag">programování CNC strojů a robotů</p>
-								</div>
-
-								<div>
-									<p className="hashtag">maturita</p>
-								</div>
-							</div>
+							<p>Maturita - Programování a seřízování CNC strojů a robotů</p>
 
 							<h4 className="heading heading--title">Marketing</h4>
-							<div className="hashtag__container">
-								<div>
-									<p className="hashtag">CIMA-A</p>
-								</div>
-							</div>
+							<p>CIMA-A</p>
+						</div>
+					</div>
+				</section>
+				<section className="subsection">
+					<div className="container">
+						<h3 className="heading heading--header text-center">Zkušenosti v IT</h3>
+						<div className="grid grid--small-big">
+							<h4 className="heading heading--title">Středoškolské soutěže</h4>
+							<p>2. místo v krajském kole soutěže SOČ - Program pro evideci zakázek v C++</p>
 
-							<h4 className="heading heading--title">Informatika</h4>
-							<div className="hashtag__container">
-								<div>
-									<p className="hashtag">samostudium</p>
-								</div>
-							</div>
+							<h4 className="heading heading--title">Praxe POSKI Ostrava</h4>
+							<p>Kódování webu realitní kanceláře JKM Family v komplexním firemním systému</p>
+
+							<h4 className="heading heading--title">Osobní projekt</h4>
+							<p>Web o fraktálech a fraktálové geometrii</p>
+
+							<h4 className="heading heading--title">OSVČ</h4>
+							<p>Pár jednoduchých webů pro drobné podnikatele v rozsahu  5-20 stránek</p>
+						</div>
+					</div>
+				</section>
+
+				<section className="subsection">
+					<div className="container">
+						<h3 className="heading heading--header text-center">Zkušenosti v jiných oborech</h3>
+						<div className="grid grid--small-big">
+							<h4 className="heading heading--title">Reklama a marketing</h4>
+							<p>Marketingové analýzy, počítačová grafika, podnikání v reklamě - 8 let</p>
+
+							<h4 className="heading heading--title">Strojírenství</h4>
+							<p>Vývojový konstruktér, automatizace výroby, programování CNC a robotů - 8 let</p>
+
+							<h4 className="heading heading--title">Algoritmické obchodování</h4>
+							<p>Programování automatických obchodních systémů a obchodování na měnové burze - 6 let</p>
 						</div>
 					</div>
 				</section>
