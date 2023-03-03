@@ -5,9 +5,7 @@
 .card {
 	background: $color-light;
 	padding: 10%;
-	max-width: 350px;
 	width: 100%;
-	margin: 0 auto;
 
 	&__title {
 		@extend .heading;
@@ -18,10 +16,6 @@
 
 	&__list {
 		list-style: none;
-	}
-
-	&__item {
-		font-size: 0.8rem;
 	}
 
 	&__item::before {
