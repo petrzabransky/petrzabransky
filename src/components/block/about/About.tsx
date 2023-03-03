@@ -9,7 +9,7 @@ const About = () => {
 			<section className="section">
 				<section className="about subsection" id="#about">
 					<div className="container">
-						<h2 className="heading heading--header">O mě</h2>
+						<h2 className="heading heading--header text-center">O mě</h2>
 						<div className="grid grid--small-big">
 							<div>
 								<img src={petr} alt="Petr Zábranský portrét" />
@@ -20,11 +20,19 @@ const About = () => {
 								</p>
 
 								<p>
-									Další  větší krok k programování jsem udělal, když mě v třetí fázi kariéry zaujalo algoritmické obchodování na měnové burze, kterému jsem se dalších několik let úspěšně věnoval na plný úvazek jako Full TIme Trader.
+									Další  krok k programování jsem udělal, když mě v třetí fázi kariéry zaujalo algoritmické obchodování na měnové burze a programování automatických obchodních systémů, kterému jsem se dalších několik let úspěšně věnoval  jako Full TIme Trader.
 								</p>
 
 								<p>
-									Nyní bych chtěl  spojit příjemné s užitečným a začít se programování věnovat naplno profesionálně.  Když se člověk živí svým koníčkem, dává do práce daleko více energie.  Rychle roste profesionalita i produktivita a spokojenost je pak na straně zaměstnance, zaměstnavatele i zákazníka.
+									Nyní bych chtěl  spojit příjemné s užitečným a začít se programování věnovat naplno profesionálně.  Když se člověk živí svým koníčkem, dává do práce daleko více energie.  Rychle roste profesionalita i produktivita a spokojenost je pak na straně zaměstnance, zaměstnavatele i zákazníka.  bych chtěl  spojit příjemné s užitečným a začít se programování věnovat naplno profesionálně.  Když se člověk živí svým koníčkem, dává do práce daleko více energie.  Rychle roste profesionalita i produktivita a spokojenost je pak na straně zaměstnance, zaměstnavatele i zákazníka.
+								</p>
+
+								<p>
+									Nabyté zkušenosti z předchozích oborů bych chtěl zhodnotit a využít i v kariéře programátora. Díky více prosefím a pozicím v různých firmách jsem získal velký nadhled a dokážu vidět firmu a její procesy z více úhlů pohledu.
+								</p>
+
+								<p>
+									Současně se nejvíce věnuji Front-Endu webových stránek a aplikací, ale programování a algoritmizace mě baví všeobecně, takže do budoucna nevylučuji ani programování v oblasti Back-Endu případně nějakou formu datové analýzy.
 								</p>
 							</div>
 						</div>
