@@ -1,12 +1,13 @@
 import "../../../styles/container.scss";
 import "../../../styles/grid.scss";
+import "../../../styles/utility.scss";
 import "./Technology.scss";
 
 const Technology = () => {
 	return (
 		<section className="technology section" id="#technology">
 			<div className="container">
-				<h2 className="heading heading--header">Technologie</h2>
+				<h2 className="heading heading--header text-center">Technologie</h2>
 				<div className="grid grid--4">
 					<span className="hashtag hashtag--big">html</span>
 					<span className="hashtag hashtag--big">css</span>
