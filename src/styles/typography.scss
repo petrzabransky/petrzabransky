@@ -1,9 +1,9 @@
 @import '../styles/variable.scss';
 
 .heading {
-    color: $color-black;
+    color: $color-dark;
     line-height: 1.5;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 2em;
 
     &--display {
