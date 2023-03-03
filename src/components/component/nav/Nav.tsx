@@ -1,5 +1,4 @@
 import "./Nav.scss";
-import "../../../styles/container.scss"
 
 const Nav = () => {
 

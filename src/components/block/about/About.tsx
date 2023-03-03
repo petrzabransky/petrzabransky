@@ -1,6 +1,3 @@
-import "../../../styles/container.scss";
-import "../../../styles/utility.scss";
-import "../../../styles/section.scss";
 import petr from "../../../assets/images/petr-zabransky.png";
 import Card from "../../component/card/Card";
 

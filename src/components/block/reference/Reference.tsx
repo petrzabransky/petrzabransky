@@ -1,5 +1,3 @@
-import "../../../styles/utility.scss";
-import "../../../styles/container.scss";
 import "./Reference.scss";
 import fraktaly from "../../../assets/images/reference/fraktaly.jpg";
 import marelen from "../../../assets/images/reference/marelen.jpg";

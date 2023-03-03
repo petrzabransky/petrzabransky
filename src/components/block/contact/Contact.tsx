@@ -1,6 +1,3 @@
-import "../../../styles/container.scss";
-import "../../../styles/grid.scss";
-import "../../../styles/utility.scss";
 import "./Contact.scss";
 
 const Contact = () => {
