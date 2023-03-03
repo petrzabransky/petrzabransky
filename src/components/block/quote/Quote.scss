@@ -1,0 +1,15 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/typography.scss";
+
+.quote {
+	background: $color-light;
+
+	&__text {
+		@extend .heading;
+		@extend .heading--title;
+		font-style: italic;
+		font-weight: normal;
+		letter-spacing: 0.05em;
+		text-align: center;
+	}
+}
