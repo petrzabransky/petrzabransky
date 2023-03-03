@@ -76,30 +76,30 @@ const About = () => {
 
 				<section className="subsection">
 					<div className="container">
-						<h3 className="heading heading--header text-center">Vzdělání</h3>
+						<h3 className="heading heading--header">Vzdělání</h3>
 						<div className="grid grid--small-big">
-							<h4 className="heading heading--title">Strojírenství</h4>
+							<p>Strojírenství</p>
 							<p>Maturita - Programování a seřízování CNC strojů a robotů</p>
 
-							<h4 className="heading heading--title">Marketing</h4>
+							<p>Marketing</p>
 							<p>CIMA-A</p>
 						</div>
 					</div>
 				</section>
 				<section className="subsection">
 					<div className="container">
-						<h3 className="heading heading--header text-center">Zkušenosti v IT</h3>
+						<h3 className="heading heading--header">Zkušenosti v IT</h3>
 						<div className="grid grid--small-big">
-							<h4 className="heading heading--title">Středoškolské soutěže</h4>
+							<p>Středoškolské soutěže</p>
 							<p>2. místo v krajském kole soutěže SOČ - Program pro evideci zakázek v C++</p>
 
-							<h4 className="heading heading--title">Praxe POSKI Ostrava</h4>
+							<p>Praxe POSKI Ostrava</p>
 							<p>Kódování webu realitní kanceláře JKM Family v komplexním firemním systému</p>
 
-							<h4 className="heading heading--title">Osobní projekt</h4>
+							<p>Osobní projekt</p>
 							<p>Web o fraktálech a fraktálové geometrii</p>
 
-							<h4 className="heading heading--title">OSVČ</h4>
+							<p>OSVČ</p>
 							<p>Pár jednoduchých webů pro drobné podnikatele v rozsahu  5-20 stránek</p>
 						</div>
 					</div>
@@ -107,15 +107,15 @@ const About = () => {
 
 				<section className="subsection">
 					<div className="container">
-						<h3 className="heading heading--header text-center">Zkušenosti v jiných oborech</h3>
+						<h3 className="heading heading--header">Zkušenosti v jiných oborech</h3>
 						<div className="grid grid--small-big">
-							<h4 className="heading heading--title">Reklama a marketing</h4>
+							<p>Reklama a marketing</p>
 							<p>Marketingové analýzy, počítačová grafika, podnikání v reklamě - 8 let</p>
 
-							<h4 className="heading heading--title">Strojírenství</h4>
+							<p>Strojírenství</p>
 							<p>Vývojový konstruktér, automatizace výroby, programování CNC a robotů - 8 let</p>
 
-							<h4 className="heading heading--title">Algoritmické obchodování</h4>
+							<p>Algoritmické obchodování</p>
 							<p>Programování automatických obchodních systémů a obchodování na měnové burze - 6 let</p>
 						</div>
 					</div>
