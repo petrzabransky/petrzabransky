@@ -26,11 +26,11 @@ const About = ({ id }: Props) => {
 							</p>
 
 							<p>
-								Další  krok k programování jsem udělal, když mě v třetí fázi kariéry zaujalo algoritmické obchodování na měnové burze a programování automatických obchodních systémů, kterému jsem se dalších několik let úspěšně věnoval  jako Full TIme Trader.
+								Další  krok k programování jsem udělal, když mě v třetí fázi kariéry zaujalo algoritmické obchodování na měnové burze a programování automatických obchodních systémů, kterému jsem se dalších několik let úspěšně věnoval jako Full Time Trader.
 							</p>
 
 							<p>
-								Nyní bych chtěl  spojit příjemné s užitečným a začít se programování věnovat naplno profesionálně.  Když se člověk živí svým koníčkem, dává do práce daleko více energie.  Rychle roste profesionalita i produktivita a spokojenost je pak na straně zaměstnance, zaměstnavatele i zákazníka.  bych chtěl  spojit příjemné s užitečným a začít se programování věnovat naplno profesionálně.  Když se člověk živí svým koníčkem, dává do práce daleko více energie.  Rychle roste profesionalita i produktivita a spokojenost je pak na straně zaměstnance, zaměstnavatele i zákazníka.
+								Nyní bych chtěl  spojit příjemné s užitečným a začít se programování věnovat naplno profesionálně.  Když se člověk živí svým koníčkem, dává do práce daleko více energie.  Rychle roste profesionalita i produktivita a spokojenost je pak na straně zaměstnance, zaměstnavatele i zákazníka.
 							</p>
 
 							<p>
@@ -38,7 +38,7 @@ const About = ({ id }: Props) => {
 							</p>
 
 							<p>
-								Současně se nejvíce věnuji Front-Endu webových stránek a aplikací, ale programování a algoritmizace mě baví všeobecně, takže do budoucna nevylučuji ani programování v oblasti Back-Endu případně nějakou formu datové analýzy.
+								V současné době se nejvíce věnuji Front-Endu webových stránek a aplikací, ale programování a algoritmizace mě baví všeobecně, takže do budoucna nevylučuji ani programování v oblasti Back-Endu případně nějakou formu datové analýzy.
 							</p>
 						</div>
 					</Grid>
