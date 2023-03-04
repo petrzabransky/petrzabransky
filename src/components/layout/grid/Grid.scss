@@ -1,9 +1,14 @@
-@import '../styles/variable.scss';
+@import '../../../styles/variable.scss';
 
 .grid {
 	display: grid;
 	grid-gap: 32px;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	margin-bottom: 5rem;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 
 	&--3 {
 		grid-template-columns: 1fr;
@@ -29,7 +34,7 @@
 		}
 	}
 
-	&--small-big {
+	&--1vs3 {
 		grid-template-columns: 1fr;
 		grid-row-gap: 16px;
 
@@ -39,6 +44,6 @@
 	}
 }
 
-.grid-gap-0 {
-	grid-gap: 0;
+.gap-row-0 {
+	grid-row-gap: 0;
 }

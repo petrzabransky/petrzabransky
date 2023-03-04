@@ -1,7 +1,7 @@
 import "./Card.scss";
 
 interface Props {
-	children: JSX.Element;
+	children: JSX.Element | JSX.Element[];
 	title: string;
 }
 

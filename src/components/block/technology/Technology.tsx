@@ -1,11 +1,18 @@
 import "./Technology.scss";
+import Section from "../../layout/section/Section";
+import Container from "../../layout/container/Container";
+import Grid from "../../layout/grid/Grid";
 
-const Technology = () => {
+interface Props {
+	id: string;
+}
+
+const Technology = ({ id }: Props) => {
 	return (
-		<section className="technology section" id="#technology">
-			<div className="container">
+		<Section otherStyle="technology" id={id}>
+			<Container>
 				<h2 className="heading heading--header text-center">Technologie</h2>
-				<div className="grid grid--4 mb-5">
+				<Grid column="4">
 					<span className="hashtag hashtag--big">html</span>
 					<span className="hashtag hashtag--big">css</span>
 					<span className="hashtag hashtag--big">javascript</span>
@@ -18,14 +25,14 @@ const Technology = () => {
 					<span className="hashtag hashtag--big">bem</span>
 					<span className="hashtag hashtag--big">gulp</span>
 					<span className="hashtag hashtag--big">webpack</span>
-				</div>
+				</Grid>
 
 				<p>
 					Úvádím technologie, které běžně používám, chápu a zvládám. Pro posouzení konkrétního rozsahu znalostí a způsobu použití můžete využít můj
 					<a href="https://www.github.com/petrzabransky" target="_blank"> github.</a> Jakoukoli jinou technologii, kterou vyžívá Vaše firma, se rád a rychle doučím.
 				</p>
-			</div>
-		</section>
+			</Container>
+		</Section>
 	)
 }
 

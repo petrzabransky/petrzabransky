@@ -1,47 +1,44 @@
 import "./Contact.scss";
+import Section from "../../layout/section/Section";
+import Container from "../../layout/container/Container";
+import Grid from "../../layout/grid/Grid";
 
-const Contact = () => {
+interface Props {
+	id: string;
+}
+
+const Contact = ({ id }: Props) => {
 	return (
-		<section id="#contact" className="contact section">
-			<section className="subsection">
-				<div className="container">
-					<h2 className="heading heading--header">Contact</h2>
-					<div className="grid grid--small-big grid-gap-0 mb-2">
-						<p>Mobil</p>
-						<p>+420 736 643 377</p>
-						<p>Email</p>
-						<p>info@petrzabransky.cz</p>
-					</div>
+		<Section otherStyle="contact" id={id}>
+			<Container>
+				<h2 className="heading heading--header">Kontakt</h2>
+				<Grid column="1vs3" gridRowGap={0} marginBottom={2}>
+					<p>Mobil</p>
+					<p>+420 736 643 377</p>
+					<p>Email</p>
+					<p>info@petrzabransky.cz</p>
+				</Grid>
 
-					<div className="grid grid--small-big grid-gap-0 mb-2">
-						<p>Email</p>
-						<p>info@petrzabransky.cz</p>
-						<p>Web</p>
-						<p>www.petrzabransky.cz</p>
-						<p>GitHub</p>
-						<p>www.github.com/petrzabransky</p>
-					</div>
+				<Grid column="1vs3" gridRowGap={0} marginBottom={2}>
+					<p>Email</p>
+					<p>info@petrzabransky.cz</p>
+					<p>Web</p>
+					<p>www.petrzabransky.cz</p>
+					<p>GitHub</p>
+					<p>www.github.com/petrzabransky</p>
+				</Grid>
 
-					<div className="grid grid--small-big grid-gap-0 mb-2">
-						<p>Bydliště</p>
-						<p>Palkovice, okr. Frýdek-Místek, Moravskoslezský kraj, CZ</p>
+				<Grid column="1vs3" gridRowGap={0} marginBottom={2}>
+					<p>Bydliště</p>
+					<p>Palkovice, okr. Frýdek-Místek, Moravskoslezský kraj, CZ</p>
+				</Grid>
 
-					</div>
-
-					<div className="grid grid--small-big grid-gap-0 mb-2">
-						<p>Spolupráce</p>
-						<p>IČ, HPP, DPP, Remote, HO i denně ve firmě</p>
-					</div>
-				</div>
-			</section>
-
-
-
-
-
-
-
-		</section>
+				<Grid column="1vs3" gridRowGap={0} marginBottom={2}>
+					<p>Spolupráce</p>
+					<p>IČ, HPP, DPP, Remote, HO i denně ve firmě</p>
+				</Grid>
+			</Container>
+		</Section>
 	)
 }
 

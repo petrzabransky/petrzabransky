@@ -3,13 +3,20 @@ import fraktaly from "../../../assets/images/reference/fraktaly.jpg";
 import marelen from "../../../assets/images/reference/marelen.jpg";
 import truhlarstvi from "../../../assets/images/reference/truhlarstvi-js.jpg";
 import jkm from "../../../assets/images/reference/jkm-family.jpg";
+import Section from "../../layout/section/Section";
+import Container from "../../layout/container/Container";
+import Grid from "../../layout/grid/Grid";
 
-const Reference = () => {
+interface Props {
+	id: string;
+}
+
+const Reference = ({ id }: Props) => {
 	return (
-		<section id="#reference">
-			<div className="container">
+		<Section otherStyle="reference" id={id}>
+			<Container>
 				<h2 className="heading heading--header">Reference</h2>
-				<div className="grid grid--2 mb-5">
+				<Grid column={"2"}>
 					<img src={fraktaly} alt="" />
 					<div>
 						<h3>Fraktály</h3>
@@ -18,9 +25,9 @@ const Reference = () => {
 						<p>www.marelen.cz</p>
 						www.github.com/petrzabransky/marelen
 					</div>
-				</div>
+				</Grid>
 
-				<div className="grid grid--3">
+				<Grid>
 					<article>
 						<img src={marelen} alt="" />
 						<div>
@@ -53,9 +60,9 @@ const Reference = () => {
 							www.github.com/petrzabransky/marelen
 						</div>
 					</article>
-				</div>
-			</div>
-		</section>
+				</Grid>
+			</Container>
+		</Section>
 	)
 }
 
