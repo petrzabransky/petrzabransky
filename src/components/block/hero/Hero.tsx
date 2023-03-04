@@ -1,4 +1,3 @@
-import "../../../styles/container.scss";
 import "./Hero.scss";
 
 const Hero = () => {

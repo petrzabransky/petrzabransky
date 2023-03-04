@@ -1,4 +1,3 @@
-import "./styles/container.scss";
 import "./App.scss";
 import Hero from "./components/block/hero/Hero";
 import Reference from "./components/block/reference/Reference";
