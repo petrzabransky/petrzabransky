@@ -3,6 +3,7 @@ import fraktaly from "../../../assets/images/reference/fraktaly.jpg";
 import marelen from "../../../assets/images/reference/marelen.jpg";
 import truhlarstvi from "../../../assets/images/reference/truhlarstvi-js.jpg";
 import jkm from "../../../assets/images/reference/jkm-family.jpg";
+import Section from "../../layout/section/Section";
 import Container from "../../layout/container/Container";
 import Grid from "../../layout/grid/Grid";
 
@@ -12,7 +13,7 @@ interface Props {
 
 const Reference = ({ id }: Props) => {
 	return (
-		<section className="reference" id={id}>
+		<Section otherStyle="reference" id={id}>
 			<Container>
 				<h2 className="heading heading--header">Reference</h2>
 				<Grid>
@@ -61,7 +62,7 @@ const Reference = ({ id }: Props) => {
 					</article>
 				</Grid>
 			</Container>
-		</section>
+		</Section>
 	)
 }
 

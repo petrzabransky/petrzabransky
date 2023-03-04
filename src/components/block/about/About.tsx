@@ -3,6 +3,7 @@ import Card from "../../component/card/Card";
 import Container from "../../layout/container/Container";
 import Grid from "../../layout/grid/Grid";
 import "./About.scss";
+import Section from "../../layout/section/Section";
 
 interface Props {
 	id: string;
@@ -11,8 +12,8 @@ interface Props {
 const About = ({ id }: Props) => {
 
 	return (
-		<section className="About" id={id}>
-			<section>
+		<Section otherStyle={"about"} id={id}>
+			<Section sub={true}>
 				<Container>
 					<h2 className="heading heading--header text-center">O mě</h2>
 					<Grid type="1vs3">
@@ -42,9 +43,9 @@ const About = ({ id }: Props) => {
 						</div>
 					</Grid>
 				</Container>
-			</section >
+			</Section >
 
-			<section>
+			<Section sub={true}>
 				<Container>
 					<h3 className="heading heading--header text-center">Potenciál</h3>
 					<Grid>
@@ -70,9 +71,9 @@ const About = ({ id }: Props) => {
 						</Card>
 					</Grid >
 				</Container >
-			</section >
+			</Section >
 
-			<section>
+			<Section sub={true}>
 				<Container>
 					<h3 className="heading heading--header">Vzdělání</h3>
 					<Grid type="1vs3">
@@ -82,9 +83,9 @@ const About = ({ id }: Props) => {
 						<p>CIMA-A</p>
 					</Grid>
 				</Container >
-			</section >
+			</Section >
 
-			<section>
+			<Section sub={true}>
 				<Container>
 					<h3 className="heading heading--header">Zkušenosti v IT</h3>
 					<Grid type="1vs3">
@@ -101,9 +102,9 @@ const About = ({ id }: Props) => {
 						<p>Pár jednoduchých webů pro drobné podnikatele v rozsahu  5-20 stránek</p>
 					</Grid>
 				</Container>
-			</section >
+			</Section >
 
-			<section>
+			<Section sub={true}>
 				<Container>
 					<h3 className="heading heading--header">Zkušenosti v jiných oborech</h3>
 					<Grid type="1vs3">
@@ -117,8 +118,8 @@ const About = ({ id }: Props) => {
 						<p>Programování automatických obchodních systémů a obchodování na měnové burze - 6 let</p>
 					</Grid>
 				</Container>
-			</section >
-		</section >
+			</Section >
+		</Section >
 	)
 }
 

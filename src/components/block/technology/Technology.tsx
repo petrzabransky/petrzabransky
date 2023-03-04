@@ -1,4 +1,5 @@
 import "./Technology.scss";
+import Section from "../../layout/section/Section";
 import Container from "../../layout/container/Container";
 import Grid from "../../layout/grid/Grid";
 
@@ -8,7 +9,7 @@ interface Props {
 
 const Technology = ({ id }: Props) => {
 	return (
-		<section className="technology section" id={id}>
+		<Section otherStyle="technology" id={id}>
 			<Container>
 				<h2 className="heading heading--header text-center">Technologie</h2>
 				<Grid type="4">
@@ -31,7 +32,7 @@ const Technology = ({ id }: Props) => {
 					<a href="https://www.github.com/petrzabransky" target="_blank"> github.</a> Jakoukoli jinou technologii, kterou vyžívá Vaše firma, se rád a rychle doučím.
 				</p>
 			</Container>
-		</section>
+		</Section>
 	)
 }
 
