@@ -7,10 +7,10 @@ interface Props {
 
 const Grid = ({ children, type }: Props) => {
 
-	let style;
+	let style: string;
 
-	if (type) { // if type of grid didn't select
-		style = "grid grid--" + { type };
+	if (type) { // if type of grid is select
+		style = "grid grid--" + type;
 	}
 	else style = "grid grid--3"; // class grid--3 mean 3 columns grid 
 
