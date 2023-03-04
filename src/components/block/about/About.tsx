@@ -43,7 +43,7 @@ const About = () => {
 				<section className="subsection">
 					<Container>
 						<h3 className="heading heading--header text-center">Potenciál</h3>
-						<Grid type="1vs3">
+						<Grid>
 							<Card title={"Silné stránky"}>
 								<li className="card__item">analytické myšlení</li>
 								<li className="card__item">hledání řešení</li>
