@@ -2,8 +2,8 @@
 @import "../../../styles/typography.scss";
 
 .hero {
-	padding-top: 15rem;
-	padding-bottom: 15rem;
+	padding-top: 20rem !important;
+	padding-bottom: 15rem !important;
 
 	&__title {
 		@extend .heading;
