@@ -16,7 +16,7 @@ const Reference = ({ id }: Props) => {
 		<Section otherStyle="reference" id={id}>
 			<Container>
 				<h2 className="heading heading--header">Reference</h2>
-				<Grid type={"2"}>
+				<Grid column={"2"}>
 					<img src={fraktaly} alt="" />
 					<div>
 						<h3>Fraktály</h3>

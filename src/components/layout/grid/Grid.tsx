@@ -2,17 +2,17 @@ import "./Grid.scss";
 
 interface Props {
 	children: JSX.Element | JSX.Element[];
-	type?: string;
+	column?: string;
 }
 
-const Grid = ({ children, type }: Props) => {
+const Grid = ({ children, column }: Props) => {
 
 	let style: string;
 
-	if (type) { // if type of grid is select
-		style = "grid grid--" + type;
+	if (column) {
+		style = "grid grid--" + column;
 	}
-	else style = "grid grid--3"; // class grid--3 mean 3 columns grid 
+	else style = "grid grid--3"; // Select 3 columns grid if number of columns is not specified
 
 	return (
 		<div className={style} >

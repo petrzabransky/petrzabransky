@@ -12,7 +12,7 @@ const Technology = ({ id }: Props) => {
 		<Section otherStyle="technology" id={id}>
 			<Container>
 				<h2 className="heading heading--header text-center">Technologie</h2>
-				<Grid type="4">
+				<Grid column="4">
 					<span className="hashtag hashtag--big">html</span>
 					<span className="hashtag hashtag--big">css</span>
 					<span className="hashtag hashtag--big">javascript</span>

@@ -16,7 +16,7 @@ const About = ({ id }: Props) => {
 			<Section sub={true}>
 				<Container>
 					<h2 className="heading heading--header text-center">O mě</h2>
-					<Grid type="1vs3">
+					<Grid column="1vs3">
 						<div>
 							<img src={petr} alt="Petr Zábranský portrét" />
 						</div>
@@ -76,7 +76,7 @@ const About = ({ id }: Props) => {
 			<Section sub={true}>
 				<Container>
 					<h3 className="heading heading--header">Vzdělání</h3>
-					<Grid type="1vs3">
+					<Grid column="1vs3">
 						<p>Strojírenství</p>
 						<p>Maturita - Programování a seřízování CNC strojů a robotů</p>
 						<p>Marketing</p>
@@ -88,7 +88,7 @@ const About = ({ id }: Props) => {
 			<Section sub={true}>
 				<Container>
 					<h3 className="heading heading--header">Zkušenosti v IT</h3>
-					<Grid type="1vs3">
+					<Grid column="1vs3">
 						<p>Středoškolské soutěže</p>
 						<p>2. místo v krajském kole soutěže SOČ - Program pro evideci zakázek v C++</p>
 
@@ -107,7 +107,7 @@ const About = ({ id }: Props) => {
 			<Section sub={true}>
 				<Container>
 					<h3 className="heading heading--header">Zkušenosti v jiných oborech</h3>
-					<Grid type="1vs3">
+					<Grid column="1vs3">
 						<p>Reklama a marketing</p>
 						<p>Marketingové analýzy, počítačová grafika, podnikání v reklamě - 8 let</p>
 
