@@ -8,8 +8,8 @@ import Contact from "../../block/contact/Contact";
 // Section must have ID for smooth scrool
 const Main = () => {
 	return (
-		<main>
-			<Hero id={"contact"}></Hero>
+		<main className="main">
+			<Hero id={"hero"}></Hero>
 			<Reference id={"reference"}></Reference>
 			<Technology id={"technology"}></Technology>
 			<About id={"about"}></About>
