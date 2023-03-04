@@ -9,17 +9,17 @@ interface Props {
 
 const Contact = ({ id }: Props) => {
 	return (
-		<Section otherStyle="contact" id={id} >
+		<Section otherStyle="contact" id={id}>
 			<Container>
 				<h2 className="heading heading--header">Contact</h2>
-				<Grid column="1vs3">
+				<Grid column="1vs3" gapRowZero={true}>
 					<p>Mobil</p>
 					<p>+420 736 643 377</p>
 					<p>Email</p>
 					<p>info@petrzabransky.cz</p>
 				</Grid>
 
-				<Grid column="1vs3">
+				<Grid column="1vs3" gapRowZero={true}>
 					<p>Email</p>
 					<p>info@petrzabransky.cz</p>
 					<p>Web</p>
@@ -28,12 +28,12 @@ const Contact = ({ id }: Props) => {
 					<p>www.github.com/petrzabransky</p>
 				</Grid>
 
-				<Grid column="1vs3">
+				<Grid column="1vs3" gapRowZero={true}>
 					<p>Bydliště</p>
 					<p>Palkovice, okr. Frýdek-Místek, Moravskoslezský kraj, CZ</p>
 				</Grid>
 
-				<Grid column="1vs3">
+				<Grid column="1vs3" gapRowZero={true}>
 					<p>Spolupráce</p>
 					<p>IČ, HPP, DPP, Remote, HO i denně ve firmě</p>
 				</Grid>
