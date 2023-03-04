@@ -2,9 +2,13 @@ import "./Contact.scss";
 import Container from "../../layout/container/Container";
 import Grid from "../../layout/grid/Grid";
 
-const Contact = () => {
+interface Props {
+	id: string;
+}
+
+const Contact = ({ id }: Props) => {
 	return (
-		<section className="contact" id="#contact" >
+		<section className="contact" id={id} >
 			<section>
 				<Container>
 					<h2 className="heading heading--header">Contact</h2>

@@ -2,9 +2,13 @@ import "./Technology.scss";
 import Container from "../../layout/container/Container";
 import Grid from "../../layout/grid/Grid";
 
-const Technology = () => {
+interface Props {
+	id: string;
+}
+
+const Technology = ({ id }: Props) => {
 	return (
-		<section className="technology section" id="#technology">
+		<section className="technology section" id={id}>
 			<Container>
 				<h2 className="heading heading--header text-center">Technologie</h2>
 				<Grid type="4">

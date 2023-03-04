@@ -6,9 +6,13 @@ import jkm from "../../../assets/images/reference/jkm-family.jpg";
 import Container from "../../layout/container/Container";
 import Grid from "../../layout/grid/Grid";
 
-const Reference = () => {
+interface Props {
+	id: string;
+}
+
+const Reference = ({ id }: Props) => {
 	return (
-		<section className="reference" id="#reference">
+		<section className="reference" id={id}>
 			<Container>
 				<h2 className="heading heading--header">Reference</h2>
 				<Grid>
