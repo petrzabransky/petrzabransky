@@ -11,7 +11,7 @@ const Contact = ({ id }: Props) => {
 	return (
 		<Section otherStyle="contact" id={id}>
 			<Container>
-				<h2 className="heading heading--header">Contact</h2>
+				<h2 className="heading heading--header">Kontakt</h2>
 				<Grid column="1vs3" gapRowZero={true}>
 					<p>Mobil</p>
 					<p>+420 736 643 377</p>
