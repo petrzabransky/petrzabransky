@@ -3,27 +3,28 @@ import "./Grid.scss";
 interface Props {
 	children: JSX.Element | JSX.Element[],
 	column?: string,
+	gap?: number,
+	margin?: number,
 	gridRowGap?: number,
 	marginBottom?: number
 }
 
-const Grid = ({ children, column, gridRowGap, marginBottom }: Props) => {
+const Grid = ({ children, column, gap, margin }: Props) => {
 
-	let style: string;
-	let otherStyle;
+	let style;
+	let columnMinWidth = (1440 - (2 * 32)) / 3;
 
-	if (column) {
-		style = "grid grid--" + column;
-	}
-	else style = "grid grid--3"; // Select 3 columns grid if number of columns is not specified
-
-	otherStyle = { gridRowGap: gridRowGap + "rem", marginBottom: marginBottom + "rem" };
-
+	style = { background: "pink", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr)" };
+	console.log(style);
 	return (
-		<div className={style} style={otherStyle}>
+		<div className={"grid"} style={style}>
 			{children}
 		</div >
 	)
+}
+
+Grid.defaultProps = {
+
 }
 
 export default Grid;
