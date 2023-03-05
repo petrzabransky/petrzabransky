@@ -2,10 +2,11 @@ import "./Grid.scss";
 
 interface Props {
 	children: JSX.Element | JSX.Element[],
-	col?: number,
-	min?: number
-	gap?: number,
-	margin?: number,
+	col?: number,	// Number of columns
+	min?: number	// Min width of 1 column (PX)
+	gap?: number,	// Grid Gap (PX)
+	margin?: number,	// Bottom Magin under of Grid (REM)
+
 	// Old parameters
 	column?: string,
 	gridRowGap?: number,
@@ -15,10 +16,12 @@ interface Props {
 const Grid = ({ children, col = 1, gap = 32, margin = 3 }: Props) => {
 
 	let style;
-	let colMinWidth = (1140 - ((col - 1) * gap)) / col;
+	let cont = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--container'));
+	// Count min width of column when we know only number of columns
+	let colMinWidth = (cont - ((col - 1) * gap)) / col;
 
+	// Style for grid
 	style = {
-		background: "pink",
 		gridTemplateColumns: "repeat(auto-fit, minmax(" + colMinWidth + "px, 1fr)",
 		gridGap: gap,
 		marginBottom: margin + "rem"
