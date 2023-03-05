@@ -16,4 +16,4 @@ $breakpoint-desktop: 1200px;
 $container-mobile: 400px;
 $container-tablet: 720px;
 $container-laptop: 960px;
-$container-desktop: 1140px;
+$container-desktop: var(--container);
