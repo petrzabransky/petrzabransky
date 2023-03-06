@@ -1,0 +1,12 @@
+@import '../../../styles/variable.scss';
+
+.grid {
+	display: grid;
+	//grid-gap: 32px;
+	//grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	//margin-bottom: 5rem;
+}
+
+.gap-row-0 {
+	grid-row-gap: 0;
+}

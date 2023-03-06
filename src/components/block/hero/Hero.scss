@@ -1,0 +1,22 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/typography.scss";
+
+.hero {
+	padding-top: 20rem !important;
+	padding-bottom: 15rem !important;
+
+	&__title {
+		@extend .heading;
+		@extend .heading--display;
+		margin-bottom: 1rem;
+	}
+
+	&__subtitle {
+		@extend .heading;
+		@extend .heading--header;
+	}
+
+	&__description {
+		margin-bottom: 0;
+	}
+}

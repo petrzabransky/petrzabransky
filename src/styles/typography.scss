@@ -1,0 +1,52 @@
+@import '../styles/variable.scss';
+
+.heading {
+    color: $color-dark;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 2em;
+
+    &--display {
+        font-size: 3.6rem;
+    }
+
+    &--header {
+        font-size: 2rem;
+    }
+
+    &--title {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    &--subtitle {
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+
+.hashtag {
+    background: $color-light;
+    //color: $color-dark;
+    display: inline;
+    text-align: center;
+    margin-right: 1em;
+    line-height: 1;
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+
+    &--big {
+        width: 100%;
+        padding: 24px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    &::before {
+        content: "#";
+    }
+}

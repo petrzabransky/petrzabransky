@@ -1,0 +1,26 @@
+@import "../../../styles/variable.scss";
+@import "../../../styles/typography.scss";
+
+
+.card {
+	background: $color-light;
+	padding: 10%;
+	width: 100%;
+
+	&__title {
+		@extend .heading;
+		@extend .heading--title;
+		margin-bottom: 1em;
+		color: $color-medium;
+	}
+
+	&__list {
+		list-style: none;
+	}
+
+	&__item::before {
+		content: "#";
+	}
+
+
+}

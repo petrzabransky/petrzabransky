@@ -1,7 +1,0 @@
-@import '../styles/variable.scss';
-
-.grid {
-	display: grid;
-	grid-gap: 32px;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}

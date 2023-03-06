@@ -38,11 +38,15 @@
 		text-transform: uppercase;
 		font-size: 14px;
 		color: $color-medium;
-		letter-spacing: 0.2em;
+
+		&:hover {
+			color: $color-dark;
+		}
+
 	}
 
-	&__active-link {
-		color: $color-white;
+	&__link--active {
+		color: $color-dark;
 		font-weight: bold;
 	}
 
@@ -51,7 +55,7 @@
 	}
 
 	@media(min-width: $breakpoint-desktop) {
-		padding: 90px 0;
+		padding: 64px 0;
 
 		&__bar {
 			justify-content: flex-start;
