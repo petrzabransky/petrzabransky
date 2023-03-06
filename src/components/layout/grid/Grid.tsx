@@ -1,26 +1,37 @@
 import "./Grid.scss";
+import { useMediaQuery } from "react-responsive";
+
 
 interface Props {
 	children: JSX.Element | JSX.Element[],
-	column?: string,
-	gridRowGap?: number,
-	marginBottom?: number
+	col?: number[],	// Number of columns
+	gap?: number,	// Grid Gap (PX)
+	margin?: number,	// Bottom Magin under of Grid (REM)
 }
 
-const Grid = ({ children, column, gridRowGap, marginBottom }: Props) => {
+const Grid = ({ children, col = [1, 1, 1], gap = 32, margin = 3 }: Props) => {
+	let style;
 
-	let style: string;
-	let otherStyle;
+	// Style for grid
+	style = {
+		gridGap: gap,
+		marginBottom: margin + "rem",
+	};
 
-	if (column) {
-		style = "grid grid--" + column;
-	}
-	else style = "grid grid--3"; // Select 3 columns grid if number of columns is not specified
+	// Breakpoints
+	const breakTablet = parseInt(getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-tablet"));
+	const breakDesktop = parseInt(getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-desktop"));
 
-	otherStyle = { gridRowGap: gridRowGap + "rem", marginBottom: marginBottom + "rem" };
+	const isTablet = useMediaQuery({ minWidth: breakTablet });
+	const isDesktop = useMediaQuery({ minWidth: 1224 });
+
+	// Set number of columns for grid
+	if (isDesktop) Object.assign(style, { gridTemplateColumns: "repeat(" + col[2] + ",1fr)" });
+	else if (isTablet) Object.assign(style, { gridTemplateColumns: "repeat(" + col[1] + ",1fr)" });
+	else Object.assign(style, { gridTemplateColumns: "repeat(" + col[0] + ",1fr)" });
 
 	return (
-		<div className={style} style={otherStyle}>
+		<div className={"grid"} style={style}>
 			{children}
 		</div >
 	)

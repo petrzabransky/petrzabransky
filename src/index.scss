@@ -2,6 +2,16 @@
 @import "./styles/typography.scss";
 @import "./styles/utility.scss";
 
+
+// Global variables
+:root {
+    --container: 1140px;
+    --breakpoint-desktop: 1200px;
+    --breakpoint-tablet: 768px;
+}
+
+
+
 // Reset CSS
 *,
 *::before,
@@ -60,6 +70,7 @@ img {
 
 img {
     border-style: none;
+    max-width: 100%;
 }
 
 p {
