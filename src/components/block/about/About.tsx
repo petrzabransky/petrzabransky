@@ -22,23 +22,15 @@ const About = ({ id }: Props) => {
 						</div>
 						<div>
 							<p>
-								Na začátku své kariéry jsem pracoval v oblasti počítačové grafiky, reklamy a marketingu. Nutkání hledat ve všem systém a logiku mě pak přivedlo k techničtějšímu oboru do strojírenství, kde jsem se  věnoval práci vývovojového konstruktéra a automatizaci výrobních procesů.
+								Na začátku své kariéry jsem pracoval v oblasti počítačové grafiky, reklamy a marketingu. Nutkání hledat ve všem systém a logiku mě pak přivedlo k techničtějšímu oboru do strojírenství, kde jsem se věnoval práci vývovojového konstruktéra a automatizaci výrobních procesů.
 							</p>
 
 							<p>
-								Další  krok k programování jsem udělal, když mě v třetí fázi kariéry zaujalo algoritmické obchodování na měnové burze a programování automatických obchodních systémů, kterému jsem se dalších několik let úspěšně věnoval jako Full Time Trader.
+								Další krok k programování jsem udělal, když mě zaujalo algoritmické obchodování na měnové burze a programování automatických obchodních systémů, kterému jsem se dalších několik let úspěšně věnoval jako Full Time Trader.
 							</p>
 
 							<p>
-								Nyní bych chtěl  spojit příjemné s užitečným a začít se programování věnovat naplno profesionálně.  Když se člověk živí svým koníčkem, dává do práce daleko více energie.  Rychle roste profesionalita i produktivita a spokojenost je pak na straně zaměstnance, zaměstnavatele i zákazníka.
-							</p>
-
-							<p>
-								Nabyté zkušenosti z předchozích oborů bych chtěl zhodnotit a využít i v kariéře programátora. Díky více prosefím a pozicím v různých firmách jsem získal velký nadhled a dokážu vidět firmu a její procesy z více úhlů pohledu.
-							</p>
-
-							<p>
-								V současné době se nejvíce věnuji Front-Endu webových stránek a aplikací, ale programování a algoritmizace mě baví všeobecně, takže do budoucna nevylučuji ani programování v oblasti Back-Endu případně nějakou formu datové analýzy.
+								Nyní bych chtěl spojit příjemné s užitečným a začít se programování věnovat naplno profesionálně. Když se člověk živí svým koníčkem, dává do práce daleko více energie. Rychle roste profesionalita i produktivita a spokojenost je pak na straně zaměstnance, zaměstnavatele i zákazníka.
 							</p>
 						</div>
 					</Grid>
@@ -77,9 +69,9 @@ const About = ({ id }: Props) => {
 				<Container>
 					<h3 className="heading heading--header">Vzdělání</h3>
 					<Grid col={"1vs3"}>
-						<p>Strojírenství</p>
+						<h4 className="heading heading--title">Strojírenství</h4>
 						<p>Maturita - Programování a seřízování CNC strojů a robotů</p>
-						<p>Marketing</p>
+						<h4 className="heading heading--title">Marketing</h4>
 						<p>CIMA-A</p>
 					</Grid>
 				</Container >
@@ -89,16 +81,16 @@ const About = ({ id }: Props) => {
 				<Container>
 					<h3 className="heading heading--header">Zkušenosti v IT</h3>
 					<Grid col={"1vs3"}>
-						<p>Středoškolské soutěže</p>
+						<h4 className="heading heading--title">Středoškolské soutěže</h4>
 						<p>2. místo v krajském kole soutěže SOČ - Program pro evideci zakázek v C++</p>
 
-						<p>Praxe POSKI Ostrava</p>
+						<h4 className="heading heading--title">Praxe POSKI Ostrava</h4>
 						<p>Kódování webu realitní kanceláře JKM Family v komplexním firemním systému</p>
 
-						<p>Osobní projekt</p>
+						<h4 className="heading heading--title">Osobní projekt</h4>
 						<p>Web o fraktálech a fraktálové geometrii</p>
 
-						<p>OSVČ</p>
+						<h4 className="heading heading--title">OSVČ</h4>
 						<p>Pár jednoduchých webů pro drobné podnikatele v rozsahu  5-20 stránek</p>
 					</Grid>
 				</Container>
@@ -108,13 +100,13 @@ const About = ({ id }: Props) => {
 				<Container>
 					<h3 className="heading heading--header">Zkušenosti v jiných oborech</h3>
 					<Grid col={"1vs3"}>
-						<p>Reklama a marketing</p>
+						<h4 className="heading heading--title">Reklama a marketing</h4>
 						<p>Marketingové analýzy, počítačová grafika, podnikání v reklamě - 8 let</p>
 
-						<p>Strojírenství</p>
+						<h4 className="heading heading--title">Strojírenství</h4>
 						<p>Vývojový konstruktér, automatizace výroby, programování CNC a robotů - 8 let</p>
 
-						<p>Algoritmické obchodování</p>
+						<h4 className="heading heading--title">Algoritmické obchodování</h4>
 						<p>Programování automatických obchodních systémů a obchodování na měnové burze - 6 let</p>
 					</Grid>
 				</Container>
