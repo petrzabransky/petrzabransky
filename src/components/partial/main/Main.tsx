@@ -2,6 +2,7 @@ import "./Main.scss";
 import Hero from "../../block/hero/Hero";
 import Reference from "../../block/reference/Reference";
 import Technology from "../../block/technology/Technology";
+import Quote from "../../block/quote/Quote";
 import About from "../../block/about/About";
 import Contact from "../../block/contact/Contact";
 
@@ -12,6 +13,7 @@ const Main = () => {
 			<Hero id={"hero"}></Hero>
 			<Reference id={"reference"}></Reference>
 			<Technology id={"technology"}></Technology>
+			<Quote></Quote>
 			<About id={"about"}></About>
 			<Contact id={"contact"}></Contact>
 		</main>
