@@ -14,7 +14,6 @@ const Nav = () => {
 
 	const breakDesktop = parseInt(getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-desktop"));
 	const isDesktop = useMediaQuery({ minWidth: breakDesktop });
-	console.log(isDesktop);
 
 	return (
 		<nav className="nav">
