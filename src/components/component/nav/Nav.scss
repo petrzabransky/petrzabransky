@@ -10,6 +10,7 @@
 		flex-direction: row;
 		justify-content: flex-end;
 		align-items: center;
+		background: $color-white;
 	}
 
 	&__menu {
@@ -17,12 +18,7 @@
 		flex-direction: column;
 		justify-content: center;
 		display: none;
-
-		&--active {
-			display: flex;
-			background: $color-dark;
-			padding: 64px 0;
-		}
+		padding-bottom: 64px;
 	}
 
 	&__item {
@@ -64,6 +60,7 @@
 			flex-direction: row;
 			flex-basis: initial;
 			justify-content: space-between;
+			padding-bottom: 0;
 		}
 
 		&__hamburger,

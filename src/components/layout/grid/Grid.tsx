@@ -23,7 +23,7 @@ const Grid = ({ children, col = [1, 1, 1], gap = 32, margin = 3 }: Props) => {
 	const breakDesktop = parseInt(getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-desktop"));
 
 	const isTablet = useMediaQuery({ minWidth: breakTablet });
-	const isDesktop = useMediaQuery({ minWidth: 1224 });
+	const isDesktop = useMediaQuery({ minWidth: breakDesktop });
 
 	// Set number of columns for grid
 	if (isDesktop) Object.assign(style, { gridTemplateColumns: "repeat(" + col[2] + ",1fr)" });
