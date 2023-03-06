@@ -2,16 +2,6 @@
 @import "./styles/typography.scss";
 @import "./styles/utility.scss";
 
-
-// Global variables
-:root {
-    --container: 1140px;
-    --breakpoint-desktop: 1200px;
-    --breakpoint-tablet: 768px;
-}
-
-
-
 // Reset CSS
 *,
 *::before,
@@ -49,13 +39,13 @@ html {
     font-size: 16px;
     scroll-behavior: smooth;
 
-    @media (min-width: $breakpoint-desktop) {
+    @media (min-width: var(--breakpoint-desktop)) {
         font-size: 17px;
     }
 }
 
 body {
-    color: $color-medium;
+    color: var(--color-medium);
 }
 
 header,
