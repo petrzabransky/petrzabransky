@@ -7,6 +7,12 @@
 	width: 100%;
 	grid-template-columns: 1fr;
 
+	&--2 {
+		@media(min-width: $breakpoint-tablet) {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
 	&--3 {
 		@media(min-width: $breakpoint-tablet) {
 			grid-template-columns: 1fr 1fr;
