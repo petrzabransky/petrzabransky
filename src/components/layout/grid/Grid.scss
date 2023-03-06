@@ -1,12 +1,41 @@
-@import '../../../styles/variable.scss';
+@import "../../../styles/variable.scss";
 
 .grid {
 	display: grid;
-	//grid-gap: 32px;
-	//grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	//margin-bottom: 5rem;
-}
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	grid-template-columns: 1fr;
 
-.gap-row-0 {
-	grid-row-gap: 0;
+	&--3 {
+		@media(min-width: $breakpoint-tablet) {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		@media(min-width: $breakpoint-desktop) {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+
+	&--4 {
+		grid-template-columns: 1fr 1fr;
+
+		@media(min-width: $breakpoint-tablet) {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+
+		@media(min-width: $breakpoint-desktop) {
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+		}
+	}
+
+	&--1vs3 {
+		@media(min-width: $breakpoint-tablet) {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		@media(min-width: $breakpoint-desktop) {
+			grid-template-columns: 1fr 3fr;
+		}
+	}
 }
