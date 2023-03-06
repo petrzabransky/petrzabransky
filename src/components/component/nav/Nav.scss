@@ -1,3 +1,5 @@
+@import "../../../styles/variable.scss";
+
 .nav {
 	width: 100%;
 
@@ -45,7 +47,7 @@
 		height: 20px;
 	}
 
-	@media(min-width: var(--breakpoint-desktop)) {
+	@media(min-width: $breakpoint-desktop) {
 		padding: 64px 0;
 
 		&__bar {

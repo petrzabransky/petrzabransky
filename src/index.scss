@@ -2,8 +2,8 @@
 
 :root {
     // Breakpoints
-    --breakpoint-tablet: $breakpoint-tablet;
-    --breakpoint-desktop: $breakpoint-desktop;
+    --breakpoint-tablet: #{$breakpoint-tablet};
+    --breakpoint-desktop: #{$breakpoint-desktop};
 
     // Containers
     --container-desktop: 1140px;

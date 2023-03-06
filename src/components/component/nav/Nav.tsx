@@ -4,7 +4,6 @@ import close from "../../../assets/images/ikony/zavrit.svg";
 import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
-
 const Nav = () => {
 	const [isActive, setIsActive] = useState(false);
 
