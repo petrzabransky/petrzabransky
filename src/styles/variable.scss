@@ -6,8 +6,8 @@ $color-dark: #444;
 $color-black: #000;
 
 // Responsive Break points (min-width)
-$breakpoint-tablet: var(--breakpoint-tablet);
-$breakpoint-desktop: var(--breakpoint-desktop);
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1200px;
 
 // Containers
-$container-desktop: var(--container);
+$container-desktop: 1140px;
