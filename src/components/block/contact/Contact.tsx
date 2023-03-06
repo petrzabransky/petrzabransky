@@ -1,7 +1,7 @@
 import "./Contact.scss";
 import Section from "../../layout/section/Section";
 import Container from "../../layout/container/Container";
-import Grid from "../../layout/grid/Grid";
+import "../../../styles/utility.scss";
 
 interface Props {
 	id: string;
@@ -12,31 +12,17 @@ const Contact = ({ id }: Props) => {
 		<Section otherStyle="contact" id={id}>
 			<Container>
 				<h2 className="heading heading--header">Kontakt</h2>
-				<Grid>
-					<p>Mobil</p>
-					<p>+420 736 643 377</p>
-					<p>Email</p>
-					<p>info@petrzabransky.cz</p>
-				</Grid>
 
-				<Grid>
-					<p>Email</p>
-					<p>info@petrzabransky.cz</p>
-					<p>Web</p>
-					<p>www.petrzabransky.cz</p>
-					<p>GitHub</p>
-					<p>www.github.com/petrzabransky</p>
-				</Grid>
+				<p>Mobil: +420 736 643 377</p>
+				<p className="mb-2">Email: info@petrzabransky.cz</p>
 
-				<Grid>
-					<p>Bydliště</p>
-					<p>Palkovice, okr. Frýdek-Místek, Moravskoslezský kraj, CZ</p>
-				</Grid>
+				<p>Email: info@petrzabransky.cz</p>
+				<p>Web: www.petrzabransky.cz</p>
+				<p className="mb-2">GitHub: www.github.com/petrzabransky</p>
 
-				<Grid>
-					<p>Spolupráce</p>
-					<p>IČ, HPP, DPP, Remote, HO i denně ve firmě</p>
-				</Grid>
+				<p>Bydliště: Palkovice, okr. Frýdek-Místek, CZ</p>
+				<p className="mb-2">Spolupráce: IČ, HPP, DPP</p>
+
 			</Container>
 		</Section>
 	)
