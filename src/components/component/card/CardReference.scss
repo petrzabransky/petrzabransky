@@ -1,0 +1,26 @@
+@import "../../../styles/typography.scss";
+
+.card-reference {
+	&__title {
+		@extend .heading;
+		@extend .heading--title;
+		margin-bottom: 1em;
+	}
+
+	&__text {
+		font-size: 0.9rem;
+	}
+
+	&__img {
+		&:hover {
+			transform: scale(1.1);
+			transition: 300ms;
+		}
+	}
+
+	&__figure {
+		overflow: hidden;
+		box-shadow: 0 0 50px #ddd;
+		margin-bottom: 32px;
+	}
+}

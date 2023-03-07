@@ -6,60 +6,37 @@ import jkm from "../../../assets/images/reference/jkm-family.jpg";
 import Section from "../../layout/section/Section";
 import Container from "../../layout/container/Container";
 import Grid from "../../layout/grid/Grid";
+import CardReference from "../../component/card/CardReference";
+import dataReference from "../../../data/dataReference";
+import { useState } from "react";
 
 interface Props {
 	id: string;
 }
 
 const Reference = ({ id }: Props) => {
+	const [data, setData] = useState(dataReference);
+
 	return (
 		<Section otherStyle="reference" id={id}>
 			<Container>
 				<h2 className="heading heading--header">Reference</h2>
-				<Grid col={"4"}>
-					<article>
-						<img src={fraktaly} alt="" />
-						<div>
-							<h3>Fraktály</h3>
-							<p>HTML | CSS | TS</p>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum reprehenderit repellendus nihil est voluptatibus corporis eligendi ex! Praesentium quae ipsum labore odio non ab hic incidunt libero fugit odit?</p>
-							<p>www.marelen.cz</p>
-							GitHub
-						</div>
-					</article>
-
-					<article>
-						<img src={marelen} alt="" />
-						<div>
-							<h3>Fraktály</h3>
-							<p>HTML | CSS | TS</p>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum reprehenderit repellendus nihil est voluptatibus corporis eligendi ex! Praesentium quae ipsum labore odio non ab hic incidunt libero fugit odit?</p>
-							<p>www.marelen.cz</p>
-							GitHub
-						</div>
-					</article>
-
-					<article>
-						<img src={truhlarstvi} alt="" />
-						<div>
-							<h3>Fraktály</h3>
-							<p>HTML | CSS | TS</p>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum reprehenderit repellendus nihil est voluptatibus corporis eligendi ex! Praesentium quae ipsum labore odio non ab hic incidunt libero fugit odit?</p>
-							<p>www.marelen.cz</p>
-							GitHub
-						</div>
-					</article>
-
-					<article>
-						<img src={jkm} alt="" />
-						<div>
-							<h3>Fraktály</h3>
-							<p>HTML | CSS | TS</p>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum reprehenderit repellendus nihil est voluptatibus corporis eligendi ex! Praesentium quae ipsum labore odio non ab hic incidunt libero fugit odit?</p>
-							<p>www.marelen.cz</p>
-							GitHub
-						</div>
-					</article>
+				<Grid col={"4"} gap={64}>
+					{
+						data.map((one) => {
+							return (
+								<div>
+									<CardReference
+										title={one.title}
+										description={one.description}
+										technology={one.technology}
+										image={one.image}
+										website={one.website}
+										url={one.url} />
+								</div>
+							)
+						})
+					}
 				</Grid>
 			</Container>
 		</Section>
