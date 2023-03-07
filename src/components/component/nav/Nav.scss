@@ -17,8 +17,11 @@
 		flex-basis: 100%;
 		flex-direction: column;
 		justify-content: center;
-		display: none;
 		padding-bottom: 64px;
+
+		&--hide {
+			display: none;
+		}
 	}
 
 	&__item {

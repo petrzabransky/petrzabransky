@@ -18,7 +18,7 @@ const Nav = () => {
 		<nav className="nav">
 			<div className="nav__bar">
 				<img onClick={toggleHandler} className="nav__hamburger nav__icon" src={isActive ? close : hamburger} alt="otevřít hlavní menu" />
-				<ul className="nav__menu" style={{ display: isDesktop || isActive ? "flex" : "none" }}>
+				<ul className={isActive ? "nav__menu" : "nav__menu nav__menu--hide"}>
 					<li className="nav__item"><a className="nav__link" href="#hero">úvod</a></li>
 					<li className="nav__item"><a className="nav__link" href="#reference">reference</a></li>
 					<li className="nav__item"><a className="nav__link" href="#technology">technologie</a></li>
