@@ -13,15 +13,14 @@ const Contact = ({ id }: Props) => {
 			<Container>
 				<h2 className="heading heading--header">Kontakt</h2>
 
-				<p>Mobil: +420 736 643 377</p>
-				<p className="mb-2">Email: info@petrzabransky.cz</p>
+				<p>+420 736 643 377</p>
+				<p className="mb-2">info@petrzabransky.cz</p>
 
-				<p>Email: info@petrzabransky.cz</p>
-				<p>Web: www.petrzabransky.cz</p>
-				<p className="mb-2">GitHub: www.github.com/petrzabransky</p>
+				<p>www.petrzabransky.cz</p>
+				<p className="mb-2">www.github.com/petrzabransky</p>
 
-				<p>Bydliště: Palkovice, okr. Frýdek-Místek, CZ</p>
-				<p className="mb-2">Spolupráce: IČ, HPP, DPP</p>
+				<p className="mb-2">IČ, HPP, DPP</p>
+				<p>Frýdek-Místek, CZ</p>
 
 			</Container>
 		</Section>
