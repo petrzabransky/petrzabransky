@@ -16,18 +16,18 @@ const Reference = ({ id }: Props) => {
 		<Section otherStyle="reference" id={id}>
 			<Container>
 				<h2 className="heading heading--header">Reference</h2>
-				<Grid col={"2"} gap={128} margin={5}>
-					<img src={fraktaly} alt="" />
-					<div>
-						<h3>Fraktály</h3>
-						<p>HTML | CSS | TS</p>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum reprehenderit repellendus nihil est voluptatibus corporis eligendi ex! Praesentium quae ipsum labore odio non ab hic incidunt libero fugit odit?</p>
-						<p>www.marelen.cz</p>
-						GitHub
-					</div>
-				</Grid>
+				<Grid col={"4"}>
+					<article>
+						<img src={fraktaly} alt="" />
+						<div>
+							<h3>Fraktály</h3>
+							<p>HTML | CSS | TS</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsum reprehenderit repellendus nihil est voluptatibus corporis eligendi ex! Praesentium quae ipsum labore odio non ab hic incidunt libero fugit odit?</p>
+							<p>www.marelen.cz</p>
+							GitHub
+						</div>
+					</article>
 
-				<Grid col={"3"}>
 					<article>
 						<img src={marelen} alt="" />
 						<div>
