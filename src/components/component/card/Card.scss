@@ -1,7 +1,8 @@
+@import "../../../styles/variable.scss";
 @import "../../../styles/typography.scss";
 
 .card {
-	background: var(--color-light);
+	background: $color-light;
 	padding: 10%;
 	width: 100%;
 
@@ -9,7 +10,7 @@
 		@extend .heading;
 		@extend .heading--title;
 		margin-bottom: 1em;
-		color: var(--color-medium);
+		color: $color-medium;
 	}
 
 	&__list {
