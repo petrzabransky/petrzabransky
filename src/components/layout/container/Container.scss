@@ -1,5 +1,7 @@
+@import "../../../styles/variable.scss";
+
 .container {
 	width: 85%;
 	margin: 0 auto;
-	max-width: var(--container-desktop);
+	max-width: $container-desktop;
 }

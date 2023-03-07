@@ -1,7 +1,7 @@
 @import '../styles/variable.scss';
 
 .heading {
-    color: var(--color-dark);
+    color: $color-dark;
     line-height: 1.5;
     font-weight: bold;
     margin-bottom: 2em;
@@ -26,7 +26,7 @@
 }
 
 .hashtag {
-    background: var(--color-light);
+    background: $color-light;
     display: inline;
     text-align: center;
     margin-right: 1em;

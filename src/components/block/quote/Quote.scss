@@ -1,7 +1,8 @@
+@import "../../../styles/variable.scss";
 @import "../../../styles/typography.scss";
 
 .quote {
-	background: var(--color-light);
+	background: $color-light;
 
 	&__text {
 		@extend .heading;
