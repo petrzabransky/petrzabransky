@@ -23,17 +23,17 @@ const Reference = ({ id }: Props) => {
 				<h2 className="heading heading--header">Reference</h2>
 				<Grid col={"4"} gap={64}>
 					{
-						data.map((one) => {
+						data.map((one, index) => {
 							return (
-								<div>
-									<CardReference
-										title={one.title}
-										description={one.description}
-										technology={one.technology}
-										image={one.image}
-										website={one.website}
-										url={one.url} />
-								</div>
+
+								<CardReference
+									key={index}
+									title={one.title}
+									description={one.description}
+									technology={one.technology}
+									image={one.image}
+									website={one.website}
+									url={one.url} />
 							)
 						})
 					}
