@@ -2,6 +2,8 @@ import "./Technology.scss";
 import Section from "../../layout/section/Section";
 import Container from "../../layout/container/Container";
 import Grid from "../../layout/grid/Grid";
+import Label from "../../component/label/Label";
+import dataTechnology from "../../../data/dataTechnology";
 
 interface Props {
 	id: string;
@@ -13,18 +15,14 @@ const Technology = ({ id }: Props) => {
 			<Container>
 				<h2 className="heading heading--header text-center">Technologie</h2>
 				<Grid col={"4"} gap={32}>
-					<span className="hashtag hashtag--big">html</span>
-					<span className="hashtag hashtag--big">css</span>
-					<span className="hashtag hashtag--big">javascript</span>
-					<span className="hashtag hashtag--big">react</span>
-					<span className="hashtag hashtag--big">typescript</span>
-					<span className="hashtag hashtag--big">oop a moduly</span>
-					<span className="hashtag hashtag--big">ajax</span>
-					<span className="hashtag hashtag--big">git</span>
-					<span className="hashtag hashtag--big">sass</span>
-					<span className="hashtag hashtag--big">bem</span>
-					<span className="hashtag hashtag--big">gulp</span>
-					<span className="hashtag hashtag--big">webpack</span>
+					{
+						dataTechnology.map((one, index) => {
+							return (
+								<Label key={index} text={one} />
+							)
+						})
+
+					}
 				</Grid>
 
 				<p>
