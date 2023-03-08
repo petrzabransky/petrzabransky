@@ -12,7 +12,7 @@ const dataReference = [
 		description: "Web o fraktálech s interaktivním kreslením",
 		website: "www.fraktly.cz",
 		url: "https://www.fraktaly.cz",
-		github: "www.github.com/petrzabransky/fraktaly"
+		github: "https://www.github.com/petrzabransky/fraktaly"
 	},
 	{
 		id: 2,
@@ -22,7 +22,7 @@ const dataReference = [
 		description: "Dynamický web pro salon krásy",
 		website: "www.marelen.cz",
 		url: "https://www.marelen.cz",
-		github: "www.github.com/petrzabransky/marelen"
+		github: "https://www.github.com/petrzabransky/marelen"
 	},
 	{
 		id: 3,

@@ -25,7 +25,6 @@ const Reference = ({ id }: Props) => {
 					{
 						data.map((one, index) => {
 							return (
-
 								<CardReference
 									key={index}
 									title={one.title}
@@ -33,7 +32,8 @@ const Reference = ({ id }: Props) => {
 									technology={one.technology}
 									image={one.image}
 									website={one.website}
-									url={one.url} />
+									url={one.url}
+									github={one.github} />
 							)
 						})
 					}
