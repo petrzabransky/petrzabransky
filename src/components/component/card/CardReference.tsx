@@ -1,3 +1,4 @@
+import { Url } from "url";
 import "./CardReference.scss";
 
 interface Props {
@@ -8,9 +9,10 @@ interface Props {
 	image?: string,
 	website?: string,
 	url?: string,
+	github?: string
 }
 
-const CardReference = ({ id, title, technology, description, website, url, image }: Props) => {
+const CardReference = ({ id, title, technology, description, website, url, image, github }: Props) => {
 	return (
 		<article>
 			<figure className="card-reference__figure">
@@ -19,7 +21,8 @@ const CardReference = ({ id, title, technology, description, website, url, image
 			<h3 className="card-reference__title">{title}</h3>
 			<p className="card-reference__text">{technology}</p>
 			<p className="card-reference__text">{description}</p>
-			<a className="card-reference__text" href={url}>{website}</a>
+			<p><a className="card-reference__text link" href={url} target="_blank">{website}</a></p>
+			<p><a className="card-reference__text link" href={github} target="_blank">{github ? "GitHub" : ""}</a></p>
 		</article>
 	)
 }
