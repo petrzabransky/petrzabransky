@@ -16,7 +16,9 @@ const CardReference = ({ id, title, technology, description, website, url, image
 	return (
 		<article>
 			<figure className="card-reference__figure">
-				<img className="card-reference__img" src={image} alt="" />
+				<a href={url} target="_blank">
+					<img className="card-reference__img" src={image} alt="" />
+				</a>
 			</figure>
 			<h3 className="card-reference__title">{title}</h3>
 			<p className="card-reference__text">{technology}</p>
