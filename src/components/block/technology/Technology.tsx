@@ -27,7 +27,7 @@ const Technology = ({ id }: Props) => {
 
 				<p>
 					Úvádím technologie, které běžně používám, chápu a zvládám. Pro posouzení konkrétního rozsahu znalostí a způsobu použití můžete využít můj
-					<a href="https://www.github.com/petrzabransky" className="link" target="_blank"> github.</a> Jakoukoli jinou technologii, kterou vyžívá Vaše firma, se rád doučím.
+					<a href="https://www.github.com/petrzabransky" className="link" target="_blank"> GitHub.</a>
 				</p>
 			</Container>
 		</Section>

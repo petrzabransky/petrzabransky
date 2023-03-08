@@ -26,11 +26,11 @@ const About = ({ id }: Props) => {
 							</p>
 
 							<p>
-								Další krok k programování byl, když mě zaujalo algoritmické obchodování na měnové burze a programování automatických obchodních systémů, kterému jsem se pak dalších několik let úspěšně věnoval jako Full Time Trader.
+								Další posun byl, když mě zaujalo algoritmické obchodování na měnové burze a programování automatických obchodních systémů, kterému jsem se pak dalších několik let úspěšně věnoval jako Full time trader.
 							</p>
 
 							<p>
-								I přes úspěšnou kariéru mě to však vždy nejvíce táhlo k programování aplikací a webů, kterému jsem se věnoval při práci jako kokoníčku. V posledních letech mě napadlo spojit příjemné s užitečným a začal jsem informatiku studovat.
+								I přes úspěšnou kariéru mě to však vždy nejvíce táhlo k programování aplikací a webů, kterému jsem se věnoval při práci jako koníčku. V posledních letech mě napadlo spojit příjemné s užitečným a začal jsem informatiku studovat.
 							</p>
 
 							<p>
