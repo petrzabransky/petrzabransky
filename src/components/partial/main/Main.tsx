@@ -9,7 +9,7 @@ import Contact from "../../block/contact/Contact";
 // Section must have ID for smooth scrool
 const Main = () => {
 	return (
-		<main className="main">
+		<main>
 			<Hero id={"hero"}></Hero>
 			<Reference id={"reference"}></Reference>
 			<Technology id={"technology"}></Technology>

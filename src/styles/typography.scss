@@ -25,27 +25,10 @@
     }
 }
 
-.hashtag {
-    background: $color-light;
-    display: inline;
-    text-align: center;
-    margin-right: 1em;
-    line-height: 1;
+.link {
+    color: $color-black;
 
-    &__container {
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 1rem;
-    }
-
-    &--big {
-        width: 100%;
-        padding: 24px;
-        text-transform: uppercase;
-        margin: 0;
-    }
-
-    &::before {
-        content: "#";
+    &:hover {
+        opacity: 0.6;
     }
 }
