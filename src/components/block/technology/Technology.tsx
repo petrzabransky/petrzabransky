@@ -21,13 +21,12 @@ const Technology = ({ id }: Props) => {
 								<Label key={index} text={one} />
 							)
 						})
-
 					}
 				</Grid>
 
 				<p>
 					Úvádím technologie, které běžně používám, chápu a zvládám. Pro posouzení konkrétního rozsahu znalostí a způsobu použití můžete využít můj
-					<a href="https://www.github.com/petrzabransky" className="link" target="_blank"> GitHub.</a>
+					<a href="https://www.github.com/petrzabransky" className="link" target="_blank" rel="noreferrer" aria-label="Otevřít GitHub Petr Zabransky"> GitHub.</a>
 				</p>
 			</Container>
 		</Section>
