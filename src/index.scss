@@ -1,19 +1,9 @@
 @import "./styles/variable.scss";
 
+// Global properties for use in JS
 :root {
-    // Breakpoints
     --breakpoint-tablet: #{$breakpoint-tablet};
     --breakpoint-desktop: #{$breakpoint-desktop};
-
-    // Containers
-    --container-desktop: 1140px;
-
-    // Colors
-    --color-white: #fff;
-    --color-light: #f2f2f2;
-    --color-medium: #888;
-    --color-dark: #444;
-    --color-black: #000;
 }
 
 // Reset CSS
@@ -53,13 +43,13 @@ html {
     font-size: 16px;
     scroll-behavior: smooth;
 
-    @media (min-width: var(--breakpoint-desktop)) {
+    @media (min-width: $breakpoint-desktop) {
         font-size: 17px;
     }
 }
 
 body {
-    color: var(--color-medium);
+    color: $color-medium;
 }
 
 header,

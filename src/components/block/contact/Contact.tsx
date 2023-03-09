@@ -12,16 +12,14 @@ const Contact = ({ id }: Props) => {
 		<Section otherStyle="contact" id={id}>
 			<Container>
 				<h2 className="heading heading--header">Kontakt</h2>
+				<p><a className="link" href="+420736643377">+420 736 643 377</a></p>
+				<p className="mb-2"><a className="link" href="mailto:info@petrzabransky.cz">info@petrzabransky.cz</a></p>
 
-				<p>Mobil: +420 736 643 377</p>
-				<p className="mb-2">Email: info@petrzabransky.cz</p>
+				<p><a className="link" href="https://www.petrzabransky.cz">www.petrzabransky.cz</a></p>
+				<p className="mb-2"><a className="link" href="https://www.github.com/petrzabransky">wwww.github.com/petrzabransky</a></p>
 
-				<p>Email: info@petrzabransky.cz</p>
-				<p>Web: www.petrzabransky.cz</p>
-				<p className="mb-2">GitHub: www.github.com/petrzabransky</p>
-
-				<p>Bydliště: Palkovice, okr. Frýdek-Místek, CZ</p>
-				<p className="mb-2">Spolupráce: IČ, HPP, DPP</p>
+				<p className="mb-2">IČ, HPP, DPP</p>
+				<p>Frýdek-Místek, CZ</p>
 
 			</Container>
 		</Section>

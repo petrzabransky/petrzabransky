@@ -1,13 +1,17 @@
 @import '../styles/variable.scss';
 
 .heading {
-    color: var(--color-dark);
+    color: $color-dark;
     line-height: 1.5;
     font-weight: bold;
     margin-bottom: 2em;
 
     &--display {
-        font-size: 3.6rem;
+        font-size: 2.8rem;
+
+        @media(min-width: $breakpoint-mobile) {
+            font-size: 3.2rem;
+        }
     }
 
     &--header {
@@ -25,27 +29,10 @@
     }
 }
 
-.hashtag {
-    background: var(--color-light);
-    display: inline;
-    text-align: center;
-    margin-right: 1em;
-    line-height: 1;
+.link {
+    color: $color-black;
 
-    &__container {
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 1rem;
-    }
-
-    &--big {
-        width: 100%;
-        padding: 24px;
-        text-transform: uppercase;
-        margin: 0;
-    }
-
-    &::before {
-        content: "#";
+    &:hover {
+        opacity: 0.6;
     }
 }

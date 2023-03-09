@@ -1,3 +1,14 @@
-// Break points
-$breakpoint-tablet: 768px;
-$breakpoint-desktop: 1024px;
+ // Colors
+ $color-white: #fff;
+ $color-light: #f2f2f2;
+ $color-medium: #777;
+ $color-dark: #444;
+ $color-black: #000;
+
+ // Break points
+ $breakpoint-mobile: 375px;
+ $breakpoint-tablet: 768px;
+ $breakpoint-desktop: 1024px;
+
+ // Containers
+ $container-desktop: 1140px;

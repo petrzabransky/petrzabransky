@@ -10,15 +10,18 @@
 		flex-direction: row;
 		justify-content: flex-end;
 		align-items: center;
-		background: var(--color-white);
+		background: $color-white;
 	}
 
 	&__menu {
 		flex-basis: 100%;
 		flex-direction: column;
 		justify-content: center;
-		display: none;
-		padding-bottom: 64px;
+		padding-bottom: 80px;
+
+		&--hide {
+			display: none;
+		}
 	}
 
 	&__item {
@@ -30,16 +33,16 @@
 		position: relative;
 		text-transform: uppercase;
 		font-size: 14px;
-		color: var(--color-medium);
+		color: $color-medium;
 
 		&:hover {
-			color: var(--color-dark);
+			color: $color-dark;
 		}
 
 	}
 
 	&__link--active {
-		color: var(--color-dark);
+		color: $color-dark;
 		font-weight: bold;
 	}
 

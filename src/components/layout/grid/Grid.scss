@@ -23,11 +23,17 @@
 		}
 	}
 
-	&--4 {
-		grid-template-columns: 1fr 1fr;
-
+	&--31 {
 		@media(min-width: $breakpoint-tablet) {
 			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+
+	&--4 {
+		grid-template-columns: 1fr;
+
+		@media(min-width: $breakpoint-tablet) {
+			grid-template-columns: 1fr 1fr;
 		}
 
 		@media(min-width: $breakpoint-desktop) {

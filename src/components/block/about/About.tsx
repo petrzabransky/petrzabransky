@@ -20,17 +20,22 @@ const About = ({ id }: Props) => {
 						<div>
 							<img src={petr} alt="Petr Zábranský portrét" />
 						</div>
+
 						<div>
 							<p>
-								Na začátku své kariéry jsem pracoval v oblasti počítačové grafiky, reklamy a marketingu. Nutkání hledat ve všem systém a logiku mě pak přivedlo k techničtějšímu oboru do strojírenství, kde jsem se věnoval práci vývovojového konstruktéra a automatizaci výrobních procesů.
+								Na začátku své kariéry jsem pracoval v oblasti počítačové grafiky, reklamy a marketingu. Nutkání hledat ve všem systém a logiku mě však přivedlo k techničtějšímu oboru do strojírenství, kde jsem se věnoval práci vývovojového konstruktéra a automatizaci výrobních procesů.
 							</p>
 
 							<p>
-								Další krok k programování jsem udělal, když mě zaujalo algoritmické obchodování na měnové burze a programování automatických obchodních systémů, kterému jsem se dalších několik let úspěšně věnoval jako Full Time Trader.
+								Další posun byl, když mě zaujalo algoritmické obchodování na měnové burze a programování automatických obchodních systémů, kterému jsem se pak dalších několik let úspěšně věnoval jako Full time trader.
 							</p>
 
 							<p>
-								Nyní bych chtěl spojit příjemné s užitečným a začít se programování věnovat naplno profesionálně. Když se člověk živí svým koníčkem, dává do práce daleko více energie. Rychle roste profesionalita i produktivita a spokojenost je pak na straně zaměstnance, zaměstnavatele i zákazníka.
+								I přes úspěšnou kariéru mě to však vždy nejvíce táhlo k programování aplikací a webů, kterému jsem se věnoval při práci jako koníčku. V posledních letech mě napadlo spojit příjemné s užitečným a začal jsem informatiku studovat.
+							</p>
+
+							<p>
+								Studium a práce na vývoji webů mě natolik zaujala, že jsem se rozhodl najít si práci Junior programátora, kde bych se mohl pod zkušenejším vedením a ve společnosti stejně nadšených lidí dál odborně rozvíjet.
 							</p>
 						</div>
 					</Grid>
@@ -82,10 +87,10 @@ const About = ({ id }: Props) => {
 					<h3 className="heading heading--header">Zkušenosti v IT</h3>
 					<Grid col={"1vs3"}>
 						<h4 className="heading heading--title">Středoškolské soutěže</h4>
-						<p>2. místo v krajském kole soutěže SOČ - Program pro evideci zakázek v C++</p>
+						<p>2. místo v krajském kole soutěže SOČ - Program pro evidenci zakázek v C++</p>
 
 						<h4 className="heading heading--title">Praxe POSKI Ostrava</h4>
-						<p>Kódování webu realitní kanceláře JKM Family v komplexním firemním systému</p>
+						<p>Kódování a stylování webu pro realitní kancelář JKM Family</p>
 
 						<h4 className="heading heading--title">Osobní projekt</h4>
 						<p>Web o fraktálech a fraktálové geometrii</p>

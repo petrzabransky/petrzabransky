@@ -1,5 +1,7 @@
+@import "../../../styles/variable.scss";
+
 .contact {
-	background: var(--color-light);
+	background: $color-light;
 
 	& p {
 		margin-bottom: 0;
