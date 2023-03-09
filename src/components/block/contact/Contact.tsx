@@ -20,7 +20,6 @@ const Contact = ({ id }: Props) => {
 
 				<p className="mb-2">IČ, HPP, DPP</p>
 				<p>Frýdek-Místek, CZ</p>
-
 			</Container>
 		</Section>
 	)

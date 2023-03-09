@@ -2,7 +2,6 @@ import "./Nav.scss";
 import hamburger from "../../../assets/images/ikony/hamburger.svg";
 import close from "../../../assets/images/ikony/zavrit.svg";
 import { useState } from "react";
-import { useMediaQuery } from "react-responsive";
 
 const Nav = () => {
 	const [isActive, setIsActive] = useState(false);
@@ -10,9 +9,6 @@ const Nav = () => {
 	const toggleHandler = () => {
 		setIsActive(!isActive);
 	}
-
-	const breakDesktop = parseInt(getComputedStyle(document.documentElement).getPropertyValue("--breakpoint-desktop"));
-	const isDesktop = useMediaQuery({ minWidth: breakDesktop });
 
 	return (
 		<nav className="nav">
