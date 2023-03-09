@@ -6,7 +6,7 @@ const Quote = () => {
 	return (
 		<Section otherStyle="quote">
 			<Container>
-				<h2 className="quote__text">Nejlepší cestou ke štěstí a úspěchu je práce, která je zároveň zábavou</h2>
+				<h2 className="quote__text">Nejlepší cestou ke štěstí a úspěchu je práce, která je zároveň i zábavou</h2>
 			</Container>
 		</Section>
 	)
