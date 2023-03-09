@@ -22,7 +22,7 @@ const Footer = () => {
 					<ul className="footer__menu">
 						<li className="footer__contact"><a className="footer__link" href="+420 736 643 377">+420 736 643 377</a></li>
 						<li className="footer__contact"><a className="footer__link" href="mailto:info@petrzabransky.cz">info@petrzabransky.cz</a></li>
-						<li className="footer__contact"><a className="footer__link" href="www.github.com/petrzabransky" target="_blank">www.github.com/petrzabransky</a></li>
+						<li className="footer__contact"><a className="footer__link" href="https://www.github.com/petrzabransky" target="_blank">www.github.com/petrzabransky</a></li>
 					</ul>
 				</Grid>
 			</Container>
