@@ -21,7 +21,7 @@ const CardReference = ({ id, title, technology, description, website, url, image
 				</a>
 			</figure>
 			<h3 className="card-reference__title">{title}</h3>
-			<p className="card-reference__text">{technology}</p>
+			<p className="card-reference__technology">{technology}</p>
 			<p className="card-reference__text">{description}</p>
 			<p><a className="card-reference__text link" href={url} target="_blank">{website}</a></p>
 			<p><a className="card-reference__text link" href={github} target="_blank">{github ? "GitHub" : ""}</a></p>

@@ -11,6 +11,11 @@
 		font-size: 0.9rem;
 	}
 
+	&__technology {
+		font-size: 0.75rem;
+		text-transform: uppercase;
+	}
+
 	&__img {
 		&:hover {
 			transform: scale(1.1);
