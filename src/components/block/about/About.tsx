@@ -20,6 +20,7 @@ const About = ({ id }: Props) => {
 						<div>
 							<img src={petr} alt="Petr Zábranský portrét" />
 						</div>
+
 						<div>
 							<p>
 								Na začátku své kariéry jsem pracoval v oblasti počítačové grafiky, reklamy a marketingu. Nutkání hledat ve všem systém a logiku mě však přivedlo k techničtějšímu oboru do strojírenství, kde jsem se věnoval práci vývovojového konstruktéra a automatizaci výrobních procesů.
@@ -34,7 +35,7 @@ const About = ({ id }: Props) => {
 							</p>
 
 							<p>
-								Studium a práce na vývoji webů mě natolik zaujala, že jsem se rozhodl najít si práci Junior programátora, kde bych se mohl pod zkušenejším vedením dál odborně rozvíjet a hlavně bych mohl pracovat ve společnosti stejně nadšených lidí.
+								Studium a práce na vývoji webů mě natolik zaujala, že jsem se rozhodl najít si práci Junior programátora, kde bych se mohl pod zkušenejším vedením a ve společnosti stejně nadšených lidí dál odborně rozvíjet.
 							</p>
 						</div>
 					</Grid>
