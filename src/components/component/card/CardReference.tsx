@@ -15,7 +15,7 @@ const CardReference = ({ id, title, technology, description, website, url, image
 	return (
 		<article>
 			<figure className="card-reference__figure">
-				<a href={url} target="_blank">
+				<a href={url} target="_blank" rel="noreferrer" aria-label="Otevření ukázkového webu">
 					<img className="card-reference__img" src={image} alt={title} />
 				</a>
 			</figure>
