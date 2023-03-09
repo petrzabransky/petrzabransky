@@ -21,7 +21,6 @@ const Technology = ({ id }: Props) => {
 								<Label key={index} text={one} />
 							)
 						})
-
 					}
 				</Grid>
 
