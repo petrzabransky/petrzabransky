@@ -23,7 +23,7 @@ const CardReference = ({ id, title, technology, description, website, url, image
 			<p className="card-reference__technology">{technology}</p>
 			<p className="card-reference__text">{description}</p>
 			<p><a className="card-reference__text link" href={url} target="_blank" rel="noreferrer" aria-label="Otevření ukázkového webu">{website}</a></p>
-			<p><a className="card-reference__text link" href={github} target="_blank" rel="noreferrer" aria-label="Otevření ukázkového webu">{github ? "GitHub" : ""}</a></p>
+			<p><a className="card-reference__text link" href={github ? github : "https://www.github.com/petrzabransky"} target="_blank" rel="noreferrer" aria-label="Otevření ukázkového webu">{github ? "GitHub" : ""}</a></p>
 		</article>
 	)
 }
