@@ -5,6 +5,7 @@ const dataTechnology = [
 	"react",
 	"typescript",
 	"oop",
+	"ajax",
 	"bem",
 	"sass",
 	"git",

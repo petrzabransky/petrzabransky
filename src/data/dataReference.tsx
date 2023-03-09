@@ -39,7 +39,7 @@ const dataReference = [
 		image: jkm,
 		title: "JKM Family",
 		technology: "HTML | CSS",
-		description: "Kódování webu pro relitní kancelář",
+		description: "Kódování webu pro realitní kancelář",
 		website: "www.jkmfamily.cz",
 		url: "https://www.jkmfamily.cz",
 		github: ""

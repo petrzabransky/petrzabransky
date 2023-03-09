@@ -86,10 +86,10 @@ const About = ({ id }: Props) => {
 					<h3 className="heading heading--header">Zkušenosti v IT</h3>
 					<Grid col={"1vs3"}>
 						<h4 className="heading heading--title">Středoškolské soutěže</h4>
-						<p>2. místo v krajském kole soutěže SOČ - Program pro evideci zakázek v C++</p>
+						<p>2. místo v krajském kole soutěže SOČ - Program pro evidenci zakázek v C++</p>
 
 						<h4 className="heading heading--title">Praxe POSKI Ostrava</h4>
-						<p>Kódování webu pro realitní kancelář JKM Family</p>
+						<p>Kódování a stylování webu pro realitní kancelář JKM Family</p>
 
 						<h4 className="heading heading--title">Osobní projekt</h4>
 						<p>Web o fraktálech a fraktálové geometrii</p>
