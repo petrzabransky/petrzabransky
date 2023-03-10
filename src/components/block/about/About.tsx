@@ -1,9 +1,10 @@
 import petr from "../../../assets/images/petr-zabransky.png";
-import Card from "../../component/card/Card";
-import Container from "../../layout/container/Container";
-import Grid from "../../layout/grid/Grid";
 import "./About.scss";
 import Section from "../../layout/section/Section";
+import Container from "../../layout/container/Container";
+import Grid from "../../layout/grid/Grid";
+import dataPotential from "../../../data/dataPotential";
+import CardPotential from "../../component/card/CardPotential";
 
 interface Props {
 	id: string;
@@ -35,7 +36,7 @@ const About = ({ id }: Props) => {
 							</p>
 
 							<p>
-								Studium a práce na vývoji webů mě natolik zaujala, že jsem se rozhodl najít si práci Junior programátora, kde bych se mohl pod zkušenejším vedením a ve společnosti stejně nadšených lidí dál odborně rozvíjet.
+								Studium a práce na vývoji webů mě natolik zaujala, že jsem se rozhodl najít si práci Junior programátora, kde bych se mohl pod zkušenějším vedením a ve společnosti stejně nadšených lidí dál odborně rozvíjet.
 							</p>
 						</div>
 					</Grid>
@@ -46,26 +47,13 @@ const About = ({ id }: Props) => {
 				<Container>
 					<h3 className="heading heading--header text-center">Potenciál</h3>
 					<Grid col={"3"}>
-						<Card title={"Silné stránky"}>
-							<li className="card__item">analytické myšlení</li>
-							<li className="card__item">hledání řešení</li>
-							<li className="card__item">krizové situace</li>
-							<li className="card__item">kreativita</li>
-							<li className="card__item">flexibilita</li>
-						</Card>
-
-						<Card title={"Slabé stránky"}>
-							<li className="card__item">angličtina</li>
-							<li className="card__item">memorování</li>
-							<li className="card__item">rutinní činosti</li>
-						</Card>
-
-						<Card title={"Soft Skills"}>
-							<li className="card__item">dobré vztahy</li>
-							<li className="card__item">vedení menšího týmu</li>
-							<li className="card__item">komunikace</li>
-							<li className="card__item">empatie</li>
-						</Card>
+						{
+							dataPotential.map((one, index) => {
+								return (
+									<CardPotential title={one.title} list={one.list} key={index} />
+								)
+							})
+						}
 					</Grid >
 				</Container >
 			</Section >
