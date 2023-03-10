@@ -7,10 +7,10 @@ const dataReference = [
 	{
 		id: 1,
 		image: fraktaly,
-		title: "Faktály",
+		title: "Fraktály",
 		technology: "ts | oop | html | css",
 		description: "Web o fraktálech s interaktivním kreslením",
-		website: "www.fraktly.cz",
+		website: "www.fraktaly.cz",
 		url: "https://www.fraktaly.cz",
 		github: "https://www.github.com/petrzabransky/fraktaly"
 	},

@@ -35,7 +35,7 @@ const About = ({ id }: Props) => {
 							</p>
 
 							<p>
-								Studium a práce na vývoji webů mě natolik zaujala, že jsem se rozhodl najít si práci Junior programátora, kde bych se mohl pod zkušenejším vedením a ve společnosti stejně nadšených lidí dál odborně rozvíjet.
+								Studium a práce na vývoji webů mě natolik zaujala, že jsem se rozhodl najít si práci Junior programátora, kde bych se mohl pod zkušenějším vedením a ve společnosti stejně nadšených lidí dál odborně rozvíjet.
 							</p>
 						</div>
 					</Grid>
